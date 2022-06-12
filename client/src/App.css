@@ -1,0 +1,72 @@
+/* Remove scroll bar */
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #202C39;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-navbar {
+    background-color: #202C39;
+    display: flex;
+    flex-direction: column;
+  }
+  .Nav-logo {
+    background-color: #CA6702;
+    color: #202C39;
+  }
+
+  .Nav-style {
+    color: white;
+  }
+
+  .Nav-user-style {
+    background-color: white;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5%;
+  }
+
+  .Nav-user-logout {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .Filter-org {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #nav-dropdown {
+    color: white;
+  }
